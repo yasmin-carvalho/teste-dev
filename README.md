@@ -21,6 +21,10 @@
 
 * Criar um banco no postgresql com o nome de api
 
+* Realizar as configurações do banco (nome, senha, porta) no arquivo ormconfig.json
+
+![Image](https://github.com/yasmin-carvalho/teste-dev/blob/master/api/assets/ormconfig.PNG "Arquivo de configuração do banco")
+
 * Instalar as dependencias:
 ```bash
 yarn
