@@ -83,7 +83,7 @@ function Home() {
 
                 <div className="right-container">
                     <div className="top-cities">
-                        <h2>5 Cidades mais buscadas</h2>
+                        <h2>Top 5 Cidades mais buscadas</h2>
                         <div className="top-cities-result">
                             {topCity.map(elem => (
                                 <p key={elem.city}>{elem.city} - {elem.qtd} buscas</p>

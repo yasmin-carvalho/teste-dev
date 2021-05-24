@@ -1,6 +1,6 @@
 .header-app {
     height: 70px;
-    background-color: #DA5C5C;
+    background-color: #1c8321;
     padding-left: 45px;
     display: flex;
     align-items: center;
@@ -95,7 +95,7 @@
   /* Configuração do painel da direita */
   .right-container {
     width: 600px;
-    height: 800px;
+    height: 780px;
     background: linear-gradient(
       to bottom right,
       rgba(1, 23, 148, 0.7),
