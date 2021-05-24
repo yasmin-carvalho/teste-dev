@@ -1,0 +1,133 @@
+.header-app {
+    height: 70px;
+    background-color: #DA5C5C;
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+  }
+  
+  /*Configuração do painel da esquerda */
+  .left-container {
+    width: 600px;
+    height: 630px;
+    background: linear-gradient(
+      to bottom right,
+      rgba(1, 23, 148, 0.7),
+      rgba(74, 0, 172, 0.7)
+    );
+    border-radius: 30px;
+    margin-right: 4em;
+    text-align: center;
+  }
+  
+  .left-container h2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 0.5em;
+  }
+  
+  .left-container p {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px;
+    color: white;
+    background: rgba(58, 58, 58, 0.45);
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+  }
+  
+  input {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    padding: 14px;
+    margin-right: 1em;
+    width: 300px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+  }
+  
+  input::placeholder {
+    font-style: italic;
+  }
+  
+  button {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #80d6e6;
+    color: rgb(0, 0, 0);
+  }
+  
+  .result {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Configuração do painel da direita */
+  .right-container {
+    width: 600px;
+    height: 800px;
+    background: linear-gradient(
+      to bottom right,
+      rgba(1, 23, 148, 0.7),
+      rgba(74, 0, 172, 0.7)
+    );
+  
+    border-radius: 30px;
+    text-align: center;
+    transition-duration: 1s;
+  }
+  
+  .right-container h2 {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+  }
+  
+  .right-container p {
+    font-size: 17px;
+    background: rgba(58, 58, 58, 0.45);
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .top-cities {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .last-cities {
+    text-align: center;
+    padding: 15px;
+  }

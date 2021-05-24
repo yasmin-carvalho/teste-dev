@@ -48,7 +48,7 @@ class HistoryController {
             const historys = await historyService.readLastCities()
             return resp.status(200).json(historys) 
         } catch (error) {
-            return resp.status(400).json({ message: 'Falha de conexão com o banco de dados' })
+            return resp.status(200).json({ message: 'Falha de conexão com o banco de dados' })
         }
     }
 }

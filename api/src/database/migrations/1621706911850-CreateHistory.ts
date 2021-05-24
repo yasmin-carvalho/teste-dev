@@ -22,11 +22,11 @@ export class CreateHistory1621706911850 implements MigrationInterface {
                     },
                     {
                         name: 'temperature',
-                        type: 'float'
+                        type: 'numeric',
                     },
                     {
                         name: 'humidity',
-                        type: 'float'
+                        type: 'numeric',
                     },
                     {
                         name: 'weather',

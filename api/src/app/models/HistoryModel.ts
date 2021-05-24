@@ -12,10 +12,10 @@ class HistoryModel {
     @Column()
     country: string;
 
-    @Column()
+    @Column('numeric')
     temperature: number;
 
-    @Column()
+    @Column('numeric')
     humidity: number;
 
     @Column()
